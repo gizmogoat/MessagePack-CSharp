@@ -3,8 +3,6 @@
 
 global using System.Collections.Immutable;
 global using System.Composition;
-global using MessagePack.SourceGenerator;
-global using MessagePack.SourceGenerator.Analyzers;
 global using Microsoft.CodeAnalysis;
 global using Microsoft.CodeAnalysis.CodeActions;
 global using Microsoft.CodeAnalysis.CodeFixes;

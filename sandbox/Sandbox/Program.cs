@@ -4,7 +4,6 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using MessagePack;
 
 Console.WriteLine("foo");
 

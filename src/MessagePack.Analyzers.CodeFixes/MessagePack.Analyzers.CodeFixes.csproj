@@ -10,7 +10,4 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MessagePack.SourceGenerator\MessagePack.SourceGenerator.csproj" />
-  </ItemGroup>
 </Project>

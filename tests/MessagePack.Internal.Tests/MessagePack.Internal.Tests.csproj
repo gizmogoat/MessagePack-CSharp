@@ -4,10 +4,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\sandbox\MessagePack.Internal\MessagePack.Internal.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="MsgPack.Cli" />
     <PackageReference Include="xunit" />
     <PackageReference Include="xunit.runner.visualstudio" />

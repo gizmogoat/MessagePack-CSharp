@@ -20,7 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\sandbox\SharedData\SharedData.csproj" />
     <ProjectReference Include="..\..\src\MessagePack.ImmutableCollection\MessagePack.ImmutableCollection.csproj" />
     <ProjectReference Include="..\..\src\MessagePack.ReactiveProperty\MessagePack.ReactiveProperty.csproj" />
     <ProjectReference Include="..\..\src\MessagePack.UnityShims\MessagePack.UnityShims.csproj" />

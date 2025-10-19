@@ -24,8 +24,7 @@ namespace MessagePack.Resolvers
 
         private static readonly IFormatterResolver[] Resolvers = new IFormatterResolver[]
         {
-            ForceSizePrimitiveObjectResolver.Instance,
-            ContractlessStandardResolverAllowPrivate.Instance,
+            ForceSizePrimitiveObjectResolver.Instance
         };
 
         private TypelessObjectResolver()

@@ -5,7 +5,6 @@
 #define DYNAMIC_GENERATION
 #endif
 
-using System;
 using System.Runtime.Serialization;
 using MessagePack.Resolvers;
 using Xunit;

@@ -6,7 +6,6 @@
 #endif
 
 #if DYNAMIC_GENERATION
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using MessagePack.Resolvers;

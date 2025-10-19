@@ -26,11 +26,6 @@
     <ProjectReference PrivateAssets="all" />
   </ItemDefinitionGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MessagePack.Analyzers.CodeFixes\MessagePack.Analyzers.CodeFixes.csproj" ExcludeAssets="compile" />
-    <ProjectReference Include="..\MessagePack.SourceGenerator\MessagePack.SourceGenerator.csproj" ExcludeAssets="compile" />
-  </ItemGroup>
-
   <Target Name="PackBuildOutputs" DependsOnTargets="ResolveProjectReferences;DebugSymbolsProjectOutputGroup">
     <PropertyGroup>
       <RoslynVersionForVSMajorMinor>$(MicrosoftCodeAnalysisVersion.Substring(0, $(MicrosoftCodeAnalysisVersion.LastIndexOf('.'))))</RoslynVersionForVSMajorMinor>
